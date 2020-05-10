@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LayoutSayfasi</title>
+    <style>
+        body {
+            color: lime;
+        }
+    </style>
+</head>
+<body>
+    <div id="ustMenu" style="background-color:red; height:200px;">
+        <span>Logo</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+        <span>Kategoriler</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+        <span>Ürünler</span>
+    </div>
+    <div id="icerik">
+        @RenderBody();
+    </div>
+    <div id="altMenu" style="background-color:blue; height:200px; width:%100; position:fixed; bottom:0;">
+        <ul>
+            <li>Instagram Sayfamız</li>
+            <li>Facebook Sayfamız</li>
+            <li>Twitter Sayfamız</li>
+            <li>Youtube Kanalımız</li>
+        </ul>
+    </div>
+</body>
+</html>
